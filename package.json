@@ -1,0 +1,25 @@
+{
+  "name": "vercel-lokalise-webhook-listener",
+  "version": "1.0.0",
+  "description": "Listens to Lokalise webhook triggers and perform actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokaliseproductdemo/vercel-lokalise-webhook-listener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokaliseproductdemo/vercel-lokalise-webhook-listener/issues"
+  },
+  "homepage": "https://github.com/lokaliseproductdemo/vercel-lokalise-webhook-listener#readme",
+  "dependencies": {
+    "@octokit/core": "^3.6.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  }
+}
